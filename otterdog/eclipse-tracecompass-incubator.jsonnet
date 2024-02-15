@@ -23,7 +23,7 @@ orgs.newOrg('eclipse-tracecompass-incubator') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
       workflows+: {
-        enabled: false,
+        default_workflow_permissions: "read",
       },
     },
   ],
