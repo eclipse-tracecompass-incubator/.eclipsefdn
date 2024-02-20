@@ -30,6 +30,13 @@ orgs.newOrg('eclipse-tracecompass-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
+      topics+: [
+        "profiling",
+        "trace-compass",
+        "trace",
+        "trace-viewer",
+        "trace-visualization"
+      ],
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "read",
