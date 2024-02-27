@@ -17,7 +17,6 @@ orgs.newOrg('eclipse-tracecompass-incubator') {
     email: "webmaster@eclipse-foundation.org",
     name: "Eclipse Trace Compass Incubator",
     readers_can_create_discussions: true,
-    two_factor_requirement: false,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
