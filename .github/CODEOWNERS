@@ -2,4 +2,4 @@
 *             @eclipse-tracecompass-incubator/eclipsefdn-releng
 
 # Otterdog related configurations are also owned by the security team.
-/otterdog/**  @eclipse-tracecompass-incubator/eclipsefdn-security @eclipse-tracecompass-incubator/eclipsefdn-releng
+/otterdog/**  @eclipse-tracecompass-incubator/eclipsefdn-security
