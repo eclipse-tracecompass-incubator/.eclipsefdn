@@ -25,7 +25,7 @@ orgs.newOrg('eclipse-tracecompass-incubator') {
   },
   _repositories+:: [
     orgs.newRepo('org.eclipse.tracecompass.incubator') {
-      allow_merge_commit: true,
+      allow_merge_commit: false,
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
