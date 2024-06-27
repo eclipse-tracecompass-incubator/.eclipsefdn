@@ -12,7 +12,6 @@ local tc_default_branch_protection_rule(pattern) =
 orgs.newOrg('eclipse-tracecompass-incubator') {
   settings+: {
     blog: "https://projects.eclipse.org/projects/tools.tracecompass.incubator",
-    dependabot_security_updates_enabled_for_new_repositories: false,
     description: "Permanent incubator for the Eclipse Trace Compass Project.",
     email: "webmaster@eclipse-foundation.org",
     name: "Eclipse Trace Compass Incubator",
