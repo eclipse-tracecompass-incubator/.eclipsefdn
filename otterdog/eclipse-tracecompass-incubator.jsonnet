@@ -9,7 +9,7 @@ local tc_default_branch_protection_rule(pattern) =
           requires_strict_status_checks: true,
   };
 
-orgs.newOrg('eclipse-tracecompass-incubator') {
+orgs.newOrg('tools.tracecompass.incubator', 'eclipse-tracecompass-incubator') {
   settings+: {
     blog: "https://projects.eclipse.org/projects/tools.tracecompass.incubator",
     description: "Permanent incubator for the Eclipse Trace Compass Project.",
